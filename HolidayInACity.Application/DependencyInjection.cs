@@ -13,6 +13,8 @@ public static class DependencyInjection
     /// <returns>services type IServiceCollection</returns>
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {
+        services.AddMediatR(Assembly.GetExecutingAssembly());
+
         return services;
     }
 }

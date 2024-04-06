@@ -16,7 +16,6 @@ public class EventOrganizerContact : EntityBase
     /// </summary>
     public string Email { get; set; } = default!;
 
-
     /// <summary>
     /// public virtual property EventOrganizer type EventOrganizer
     /// </summary>
